@@ -1,0 +1,14 @@
+speedup(p) = T1/Tp
+finds how much faster a parallel algorithm runs compaired to the fastest sequential algorithm
+
+efficiency = speedup/# of processors
+how effectively multiple processors are used compared to a single processor
+
+work(cg) = is the total work to be executed in CG
+number of operations performed by all processors combined
+
+span = the longest path and the shortest possible completion time
+
+parallelism = work/span
+
+
