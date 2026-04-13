@@ -1,5 +1,5 @@
 speedup(p) = T1/Tp
-finds how much faster a parallel algorithm runs compaired to the fastest sequential algorithm
+finds how much faster a parallel algorithm runs compared to the fastest sequential algorithm
 
 efficiency = speedup/# of processors
 how effectively multiple processors are used compared to a single processor
