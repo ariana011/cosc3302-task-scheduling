@@ -7,7 +7,7 @@ tasks = [random.randint(1, 10) for _ in range(50)]
 T1 = sum(tasks)
 
 # Parallel (4 processors)
-processors = [0, 0, 0, 0]
+processors = [1, 2, 4, 8]
 
 for task in tasks:
     # find processor with least work
